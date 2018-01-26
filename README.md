@@ -20,13 +20,13 @@ node --expose-gc test/test.js
 node ^8.*
 
 ```javascript
-const promiseObject = require('promise-object/src/promiseObject');
+const promiseObject = require('promise-all-object/src/promiseAllObject');
 ```
 
 else node versions and for webpack build
 
 ```javascript
-const promiseObject = require('promise-object');
+const promiseObject = require('promise-all-object');
 ```
 
 ```javascript

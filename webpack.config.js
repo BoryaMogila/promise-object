@@ -1,7 +1,7 @@
 const config = {
-  entry: './src/promiseObject.js',
+  entry: './src/promiseAllObject.js',
   output: {
-    filename: 'promiseObject.js',
+    filename: 'promiseAllObject.js',
     library: 'promise-object',
     libraryTarget: 'commonjs2',
   },

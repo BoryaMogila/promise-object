@@ -1,6 +1,6 @@
 const memoryDetect = require('./detectMemoryUsage');
 const random = require('./random');
-const all = require('../promiseObject');
+const all = require('../promiseAllObject');
 
 
 function returnAsyncOperation(defTime) {

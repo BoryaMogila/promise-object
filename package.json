@@ -1,8 +1,8 @@
 {
-  "name": "promise-object",
+  "name": "promise-all-object",
   "version": "0.0.1",
   "description": "Work like Promise.all with objects any nesting level",
-  "main": "promiseObject.js",
+  "main": "promiseAllObject.js",
   "directories": {
     "test": "test"
   },
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/BoryaMogila/promise-object.git"
   },
-  "author": "Borya Mogila",
+  "author": "boryamogila",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "6.26.0",
