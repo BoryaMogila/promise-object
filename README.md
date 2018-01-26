@@ -3,11 +3,22 @@
 Work like Promise.all with objects any nesting level
 ## install
 
+node >= 8
+
 ```bash
 
 npm i -save promise-object
 
 ```
+
+else node versions and for webpack build
+
+```bash
+
+npm i -save promise-object@1.*
+
+```
+
 ## test
 
 ```bash
@@ -17,19 +28,9 @@ node --expose-gc test/test.js
 ```
 ## usage
 
-node ^8.*
-
-```javascript
-const promiseObject = require('promise-all-object/src/promiseAllObject');
-```
-
-else node versions and for webpack build
-
 ```javascript
 const promiseObject = require('promise-all-object');
-```
 
-```javascript
 promiseObject({
   op1: asyncOperation(),
   op2: asyncOperation(),
