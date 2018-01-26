@@ -1,6 +1,6 @@
 {
   "name": "promise-all-object",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Work like Promise.all with objects any nesting level",
   "main": "promiseAllObject.js",
   "directories": {

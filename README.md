@@ -5,7 +5,7 @@ Work like Promise.all with objects any nesting level
 
 ```bash
 
-npm i -save promise-object
+npm i -save promise-all-object
 
 ```
 ## test
