@@ -47,24 +47,27 @@ promiseObject({
 }).catch(e => {
   console.log(e);
 });
-// or
 
-try {
-  const res = promiseObject({
-    op1: asyncOperation(),
-    op2: asyncOperation(),
-    op3: 'simple field',
-    op4: {
+// or
+async () => {
+  try {
+    const res = await promiseObject({
       op1: asyncOperation(),
       op2: asyncOperation(),
-    },
-    op5: [
-      asyncOperation(),
-      asyncOperation(),
-    ]
-  });
-  // do something...
-} catch (e){
-  console.log(e);
+      op3: 'simple field',
+      op4: {
+        op1: asyncOperation(),
+        op2: asyncOperation(),
+      },
+      op5: [
+        asyncOperation(),
+        asyncOperation(),
+      ]
+    });
+    // do something...
+  } catch (e){
+    console.log(e);
+  }
 }
+
 ```
