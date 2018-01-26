@@ -14,11 +14,18 @@ node --expose-gc test/test.js
 
 ```
 
-```javascript
-// node ^8.*
-const promiseObject = require('promise-object/es/promiseObject');
+node ^8.*
 
-// else
+```javascript
+
+const promiseObject = require('promise-object/src/promiseObject');
+
+```
+
+else node versions and for webpack build
+
+```javascript
+ 
 const promiseObject = require('promise-object');
 
 ```

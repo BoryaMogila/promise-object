@@ -1,5 +1,5 @@
 const config = {
-  entry: './es/promiseObject.js',
+  entry: './src/promiseObject.js',
   output: {
     filename: 'promiseObject.js',
     library: 'promise-object',
