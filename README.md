@@ -7,7 +7,7 @@ node >= 8
 
 ```bash
 
-npm i -save promise-object
+npm i -save promise-all-object
 
 ```
 
@@ -15,7 +15,7 @@ else node versions and for webpack build
 
 ```bash
 
-npm i -save promise-object@1.*
+npm i -save promise-all-object@1.*
 
 ```
 
