@@ -1,0 +1,10 @@
+{
+  "presets": ["env", "node6"],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}
+
